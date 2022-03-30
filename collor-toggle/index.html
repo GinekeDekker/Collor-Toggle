@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Color Toggle</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script defer src="script.js"></script>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Color Toggle" />
+    <meta name="author" content="G.Dekker" />
+  </head>
+  <body>
+    <div id="menu-container">
+      <div>
+        <img
+          src="hamburger-icon.png"
+          alt="hamburger-icon"
+          id="hamburger-icon"
+        />
+      </div>
+      <div id="menu-ul-container">
+        <ul id="no-bullets">
+          <li id="bg-grey" class="menu-bar">
+            <input
+              type="radio"
+              name="color"
+              value="lightgrey"
+              id="buttonGrey"
+            />
+            Home (press 1)
+          </li>
+          <li id="bg-red" class="menu-bar">
+            <input type="radio" name="color" value="red" id="buttonRed" /> Red
+            (press 2)
+          </li>
+          <li id="bg-orange" class="menu-bar">
+            <input type="radio" name="color" value="orange" id="buttonOrange" />
+            Orange (press 3)
+          </li>
+          <li id="bg-purple" class="menu-bar">
+            <input type="radio" name="color" value="purple" id="buttonPurple" />
+            Purple (press 4)
+          </li>
+          <li id="bg-green" class="menu-bar">
+            <input type="radio" name="color" value="green" id="buttonGreen" />
+            Green (press 5)
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
